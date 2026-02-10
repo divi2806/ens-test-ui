@@ -52,7 +52,7 @@ export default function Home() {
       <footer className="container mx-auto px-4 py-8 text-center text-white/80">
         <p className="mb-2">Built with ❤️ for ENS on Sepolia</p>
         <a 
-          href="https://sepolia.etherscan.io/address/0x2377e7FD75A4dE771d28e0BCF9909294bd0874Fa"
+          href="https://sepolia.etherscan.io/address/0xa589676a3a68824774Dce210f3448cE1750f676e"
           target="_blank"
           rel="noopener noreferrer"
           className="text-purple-200 hover:text-white hover:underline"

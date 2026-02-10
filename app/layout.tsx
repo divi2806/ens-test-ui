@@ -6,7 +6,7 @@ import { Providers } from "@/components/Providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "divi.eth - ENS Subdomain Rental",
+  title: "divicompany.eth - ENS Subdomain Rental",
   description: "Rent your ENS subdomain on Sepolia testnet",
 };
 

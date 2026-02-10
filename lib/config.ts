@@ -1,5 +1,5 @@
-export const CONTRACT_ADDRESS = '0x2377e7FD75A4dE771d28e0BCF9909294bd0874Fa' as const;
-export const PARENT_DOMAIN = 'divi.eth' as const;
+export const CONTRACT_ADDRESS = '0xa589676a3a68824774Dce210f3448cE1750f676e' as const;
+export const PARENT_DOMAIN = 'divicompany.eth' as const;
 export const SEPOLIA_CHAIN_ID = 11155111 as const;
 
 export const CONTRACT_ABI = [
