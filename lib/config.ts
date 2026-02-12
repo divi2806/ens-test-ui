@@ -1,6 +1,7 @@
 export const CONTRACT_ADDRESS = '0xa589676a3a68824774Dce210f3448cE1750f676e' as const;
 export const PARENT_DOMAIN = 'divicompany.eth' as const;
 export const SEPOLIA_CHAIN_ID = 11155111 as const;
+export const GATEWAY_API_URL = process.env.NEXT_PUBLIC_GATEWAY_API_URL || 'http://localhost:3001';
 
 export const CONTRACT_ABI = [
   {

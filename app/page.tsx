@@ -3,6 +3,7 @@
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { SubdomainSearch } from '@/components/SubdomainSearch';
 import { RentalInfo } from '@/components/RentalInfo';
+import { OffchainSubdomainSearch } from '@/components/OffchainSubdomainSearch';
 import { PARENT_DOMAIN } from '@/lib/config';
 
 export default function Home() {
@@ -23,7 +24,17 @@ export default function Home() {
       <main className="container mx-auto px-4 py-12 space-y-8">
         <SubdomainSearch />
         <RentalInfo />
-        
+
+        {/* Offchain Sub-subdomain Section */}
+        <div className="w-full max-w-2xl mx-auto">
+          <div className="border-t border-white/20 my-8"></div>
+          <h2 className="text-2xl font-bold text-white text-center mb-6">Offchain Sub-subdomains</h2>
+          <p className="text-purple-200 text-center mb-8">
+            Register sub-subdomains under rented names — free, no gas, resolved via CCIP-Read
+          </p>
+        </div>
+        <OffchainSubdomainSearch />
+
         {/* Info Section */}
         <div className="w-full max-w-2xl mx-auto bg-white/10 backdrop-blur-lg rounded-2xl p-8 text-white">
           <h3 className="text-xl font-bold mb-4">How it works</h3>
